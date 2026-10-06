@@ -826,3 +826,28 @@ body { background: #edf0f9; }
   .portfolio-feature,.portfolio-pair,.portfolio-bottom,.operations-board,.sales-board { animation: none !important; }
   .portfolio-board,.about-board { transform: none !important; transition: none !important; }
 }
+
+/* ---- v2 additions ---- */
+.hero-portrait{display:flex;align-items:center;gap:1rem;width:100%;background:#fff;border:1px solid var(--line);border-radius:18px;padding:.7rem 1.2rem .7rem .7rem;margin-bottom:14px;box-shadow:0 12px 28px rgba(30,49,102,.1)}
+.hero-portrait img{width:104px;height:104px;object-fit:cover;border-radius:14px;flex:none}
+.hero-portrait strong{display:block;font-size:1.1rem;color:var(--ink);letter-spacing:-.02em}
+.hero-portrait span{display:block;font-size:.82rem;color:var(--muted)}
+.open-badge{display:inline-flex;align-items:center;gap:.45rem;margin-top:.5rem;font-style:normal;font-size:.76rem;font-weight:650;color:#0f6b4f;background:#e3f6ee;padding:.22rem .65rem;border-radius:99px}
+.open-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#1aa37a}
+.hero-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.2rem;max-width:720px}
+.hero-facts strong{font-size:1.15rem;letter-spacing:-.03em}
+.case-study .case-visual{background:linear-gradient(150deg,#eaf0fc,#d2def5)}
+.case-story{display:grid;gap:.6rem;margin:1.2rem 0;padding:1rem 1.15rem;background:#f1f5fd;border-left:3px solid var(--pine);border-radius:0 10px 10px 0}
+.case-story>div{display:grid;grid-template-columns:82px 1fr;gap:.7rem;font-size:.92rem;line-height:1.5}
+.case-story dt{font-weight:700;color:var(--pine-deep)}
+.case-story dd{margin:0;color:var(--muted)}
+.timeline-row p+p{margin:.35rem 0 0;color:var(--muted);font-size:.94rem;max-width:62ch}
+.kind-words{padding-block:clamp(4rem,7vw,6rem);border-top:1px solid var(--line)}
+.kind-words h2{font-size:clamp(1.9rem,3.4vw,2.8rem);margin-bottom:2rem}
+.kind-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2.2rem}
+.kind-grid blockquote{margin:0;padding-left:1.2rem;border-left:3px solid var(--pine)}
+.kind-grid p{font-size:1.06rem;line-height:1.6;margin-bottom:.9rem}
+.kind-grid footer{font-size:.84rem;font-weight:650;color:var(--muted)}
+.kind-note{margin:1.8rem 0 0;font-size:.82rem;color:var(--muted)}
+.contact-meta{flex-wrap:wrap;gap:.6rem 1.6rem}
+@media (max-width:760px){.kind-grid{grid-template-columns:1fr}.hero-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.case-story>div{grid-template-columns:1fr;gap:.1rem}.hero-portrait img{width:84px;height:84px}}
