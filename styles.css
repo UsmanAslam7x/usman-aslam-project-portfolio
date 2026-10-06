@@ -851,3 +851,8 @@ body { background: #edf0f9; }
 .kind-note{margin:1.8rem 0 0;font-size:.82rem;color:var(--muted)}
 .contact-meta{flex-wrap:wrap;gap:.6rem 1.6rem}
 @media (max-width:760px){.kind-grid{grid-template-columns:1fr}.hero-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.case-story>div{grid-template-columns:1fr;gap:.1rem}.hero-portrait img{width:84px;height:84px}}
+
+/* Balance marks with extra whitespace inside their source images. */
+.brand-cell:nth-child(3) .brand-emblem img { scale: 1.16; }
+.brand-cell:nth-child(5) .brand-emblem img { scale: 1.38; }
+.portfolio-tile-sales .portfolio-tile-logos img[alt="Kaizen Paint logo"] { scale: 1.12; }
