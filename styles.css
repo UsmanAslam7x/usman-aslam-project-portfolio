@@ -832,8 +832,6 @@ body { background: #edf0f9; }
 .hero-portrait img{width:104px;height:104px;object-fit:cover;border-radius:14px;flex:none}
 .hero-portrait strong{display:block;font-size:1.1rem;color:var(--ink);letter-spacing:-.02em}
 .hero-portrait span{display:block;font-size:.82rem;color:var(--muted)}
-.open-badge{display:inline-flex;align-items:center;gap:.45rem;margin-top:.5rem;font-style:normal;font-size:.76rem;font-weight:650;color:#0f6b4f;background:#e3f6ee;padding:.22rem .65rem;border-radius:99px}
-.open-badge::before{content:"";width:7px;height:7px;border-radius:50%;background:#1aa37a}
 .hero-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.2rem;max-width:720px}
 .hero-facts strong{font-size:1.15rem;letter-spacing:-.03em}
 .case-study .case-visual{background:linear-gradient(150deg,#eaf0fc,#d2def5)}
@@ -848,7 +846,6 @@ body { background: #edf0f9; }
 .kind-grid blockquote{margin:0;padding-left:1.2rem;border-left:3px solid var(--pine)}
 .kind-grid p{font-size:1.06rem;line-height:1.6;margin-bottom:.9rem}
 .kind-grid footer{font-size:.84rem;font-weight:650;color:var(--muted)}
-.kind-note{margin:1.8rem 0 0;font-size:.82rem;color:var(--muted)}
 .contact-meta{flex-wrap:wrap;gap:.6rem 1.6rem}
 @media (max-width:760px){.kind-grid{grid-template-columns:1fr}.hero-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.case-story>div{grid-template-columns:1fr;gap:.1rem}.hero-portrait img{width:84px;height:84px}}
 
